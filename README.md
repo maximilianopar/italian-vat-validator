@@ -80,7 +80,7 @@ project-root/
     └── partials/
         ├── header.php
         └── footer.php
-
+```
 ---
 
 ## Requirements
