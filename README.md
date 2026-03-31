@@ -45,6 +45,7 @@ A VAT number is considered valid if it:
 
 ## Project Structure
 
+```text
 project-root/
 │
 ├── config/
@@ -139,12 +140,16 @@ This will insert an example batch and sample VAT results.
 ### 6. Configure the application
 
 Open:
+
+```text
 /config/config.php
+```
 
 Make sure your database connection matches your local XAMPP setup.
 
 **Example:**
 
+```php
 return [
     'db' => [
         'host' => '127.0.0.1',
@@ -159,6 +164,7 @@ return [
         'max_upload_size' => 2097152,
     ],
 ];
+```
 
 ---
 
